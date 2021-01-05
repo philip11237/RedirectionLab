@@ -29,4 +29,14 @@ public class PigLatin{
 
 
   }
+  public static String pigLatinBest(String s){
+    if (!Character.isAlphabetic(s.charAt(0))){
+      return s;
+    }
+    if (!Character.isAlphabetic(s.charAt(s.length()-1)))
+      return pigLatin(s.substring(0,s.length()-1)+s.charAt(s.length()-1);
+      else{
+        return pigLatin(s);
+      }
+  }
 }
