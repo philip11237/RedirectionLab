@@ -4,7 +4,7 @@ public class MakeStars{
     Scanner scan=new Scanner(System.in);
     while (scan.hasNextLine()){
       String line=can.nextLine();
-      for int i=0; i<line.length();i++;{
+      for (int i=0; i<line.length();i++){
         if (line.charAt(i)!=' '){
           System.out.print('*' );
         }
